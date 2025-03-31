@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tank Battle Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1a1a1a;
+            font-family: Arial, sans-serif;
+        }
+        #gameCanvas {
+            border: 2px solid #333;
+            background-color: #000;
+        }
+        .game-container {
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .controls {
+            color: #fff;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tank Battle Game</h1>
+        <canvas id="gameCanvas"></canvas>
+        <div class="controls">
+            <p>Controls:</p>
+            <p>↑↓ - Move Forward/Backward</p>
+            <p>←→ - Rotate Tank</p>
+            <p>Space - Shoot</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
